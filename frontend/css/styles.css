@@ -1,0 +1,19 @@
+/*style.css*/
+
+.message-slider {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f0f0f0;
+    color: #333;
+    text-align: center;
+    padding: 10px 0;
+    z-index: 1000;
+    transition: top 0.5s ease;
+  }
+  
+  .message-slider.hide {
+    top: -50px;
+  }
+  

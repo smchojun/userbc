@@ -1,0 +1,22 @@
+<!--index.html-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>사용자 보유금액 확인</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <h1>보유금액: <span id="balance"></span></h1>
+  <input type="text" id="username" placeholder="아이디를 입력하세요." />
+  <!--<input type="password" id="password" placeholder="비밀번호를 입력하세요." />-->
+  <button onclick="fetchData()">확인</button>
+  <button onclick="withdrawAll()">전액출금</button>
+  <pre id="result"></pre>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
